@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>wiki API project</title>
+    <link rel="stylesheet" href="wiki.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="wiki.js"></script>
+  </head>
+  <body>
+    <div class="main-section">
+      <div class="random-article">
+        <a id="random-link" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for random article</a>
+      </div>
+      <form class="search-article">
+        <input type="search" class="search-bar" placeholder="search here for wikipedia article">
+      </form>
+      <div class="search-result-wrapper">
+        <h2 id="search-status"></h2>
+        <ul id="result-list"></ul>
+      </div>
+    </div>
+  </body>
+</html>

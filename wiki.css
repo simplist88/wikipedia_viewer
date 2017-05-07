@@ -1,0 +1,45 @@
+body {
+  background-color: #092B40;
+
+}
+.main-section {
+  margin: 95px 0;
+}
+#random-link {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+.search-bar {
+  width: 40%;
+  height: 35px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+#result-list {
+  list-style: none;
+}
+#search-status {
+  text-align: center;
+  color: white;
+}
+#result-list li {
+  display: block;
+  background-color: #E7E7E8;
+  width: 75%;
+  margin: 15px auto;
+  border: 1px solid black;
+}
+li h3, li p {
+  padding: 5px 15px;
+  font-size: 0.8em;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
